@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Drinks!</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/32afe25cd2.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header class="sticky">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/favicon.png" width="100" height="90" alt="">
+                    Home Brew
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about/index.html"><i class="fas fa-info"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-coffee"></i> Drinks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../order/index.html"><i class="fas fa-receipt"></i> Order</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="main container">
+        <!-- Drinks Tab Header -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Our Drinks</h1>
+                <p class="lead">Here is our list of drinks, Feel free to choose!
+                </p>
+            </div>
+        </div>
+
+        <!-- Drinks Tab -->
+        <nav>
+            <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+                <a class="nav-link active " id="nav-coffee-tab" data-toggle="tab" href="#nav-coffee" role="tab"
+                    aria-controls="nav-home" aria-selected="true"><i class="fas fa-mug-hot"></i> Coffee</a>
+                <a class="nav-link" id="nav-tea-tab" data-toggle="tab" href="#nav-tea" role="tab"
+                    aria-controls="nav-tea" aria-selected="false"><i class="fas fa-leaf"></i> Tea</a>
+                <a class="nav-link" id="nav-shake-tab" data-toggle="tab" href="#nav-shake" role="tab"
+                    aria-controls="nav-shake" aria-selected="false"><i class="fas fa-blender"></i> Shake</a>
+            </div>
+        </nav>
+
+        <!-- Drinks Content -->
+        <div class="tab-content" id="nav-tabContent">
+            <!-- Coffee Tab-->
+            <div class="tab-pane fade show active" id="nav-coffee" role="tabpanel" aria-labelledby="nav-home-tab">
+                <!-- Coffee Content -->
+                <div class="container">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Our Coffees</h1>
+                            <p class="lead">Here is our list of coffees for you to try!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="https://static.scientificamerican.com/sciam/cache/file/7C0BADB7-D030-4E4E-BE715FB20458C51E_source.jpg?w=590&h=800&533ACFE5-6F68-4434-B0595E60892B668A"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Espresso</h5>
+                                <p class="card-text">The espresso, also known as a short black, is approximately 1 oz.
+                                    of highly
+                                    concentrated
+                                    coffee. Although simple in appearance, it can be difficult to master.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://www.thecheesecakefactory.com/assets/images/Menu-Import/960x720-CCF_DoubleEspresso.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Double Espresso</h5>
+                                <p class="card-text">A double espresso may also be listed as doppio, which is the
+                                    Italian word for
+                                    double.
+                                    This drink is highly concentrated and strong.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-recipes-americano-1571757341897.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Americano</h5>
+                                <p class="card-text">Americanos are popular breakfast drinks and thought to have
+                                    originated during
+                                    World War
+                                    II. Soldiers would add water to their coffee to extend their rations farther. The
+                                    water
+                                    dilutes the espresso while still maintaining a high level of caffeine.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tea Tab -->
+            <div class="tab-pane fade" id="nav-tea" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <!-- Tea Content -->
+                <div class="container">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Our Teas</h1>
+                            <p class="lead">Here is our list of teas for you to try!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="https://post.healthline.com/wp-content/uploads/2020/09/chamomile-tea-thumb-1-732x549.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Chamomile Tea</h5>
+                                <p class="card-text">Chamomile tea is most commonly known for its calming effects and is
+                                    frequently
+                                    used as asleep aid. <br>Two studies have examined the effects of chamomile tea or
+                                    extract on
+                                    sleep
+                                    problems in
+                                    humans. In one study of 80 postpartum women experiencing sleep issues, drinking
+                                    chamomile tea
+                                    for two weeks led to improved sleep quality and fewer symptoms of depression.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Matcha Tea</h5>
+                                <p class="card-text">Matcha is finely ground powder of specially grown and processed
+                                    green tea
+                                    leaves,
+                                    traditionally consumed in East Asia. The green tea plants used for matcha are
+                                    shade-grown for three to four weeks before harvest; the stems and veins are removed
+                                    during processing. During shaded growth, the plant Camellia sinensis produces more
+                                    theanine and caffeine. The powdered form of matcha is consumed differently from tea
+                                    leaves or tea bags, as it is suspended in a liquid, typically water or milk.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://www.theflavorbender.com/wp-content/uploads/2020/06/Bubble-Milk-Tea-SM-7518-2-500x500.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milk Tea</h5>
+                                <p class="card-text">Milk tea, quite simply, is tea with milk added. This creates a
+                                    smoother flavor and
+                                    slightly sweetens the tea. It is a popular way to serve tea in many parts of the
+                                    world,
+                                    and it is an easy way to change up your average cup of tea.​
+                                    There are many regions in the world where milk tea is the default type of tea. This
+                                    is
+                                    most apparent in certain parts of India where tea usually refers to milk tea. Tea
+                                    without milk is ordered as "black tea" or simply "tea without." Milk tea is also
+                                    commonly consumed in England, Ireland, Scotland, Canada, Sri Lanka, and Hong Kong.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Shake Tab -->
+            <div class="tab-pane fade" id="nav-shake" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <!-- Shake Content -->
+                <div class="container">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Our Shakes</h1>
+                            <p class="lead">Here is our list of shakes for you to try!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card">
+                            <img src="https://www.sonshinekitchen.com/wp-content/uploads/2018/03/chocolate-banana-milkshake-10.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Banana Shake</h5>
+                                <p class="card-text">This milkshake is good for your health as it is packed with
+                                    proteins. To begin with, take
+                                    one glass of milk (cold) and pour it into the mixer. Cut thin round slices of banana
+                                    and
+                                    put in the blender. Add one tsp sugar and cardamom powder to it. Give it a mix. Make
+                                    sure that the mixture blends properly. Pour it in a glass and enjoy! You can garnish
+                                    it
+                                    with banana slices, whipped or fresh cream, and some chocolate powder.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://c.ndtvimg.com/mango-shake_625x300_1527852574155.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mango Shake</h5>
+                                <p class="card-text">Mango; the fruit which we all love. For all the mango lovers, this
+                                    milkshake is love.
+                                    First of all, dice one or two mangoes. Pour one glass of cold milk into the mixer.
+                                    Add
+                                    the diced mangoes to it. Mix it. Then add one tsp (or more) sugar to it. You can add
+                                    a
+                                    bit of cardamom powder if you wish. Mix again. You can top it off with some
+                                    chocolate
+                                    shavings or dry fruits powder. If you have some mango ice cream with you, you can
+                                    add
+                                    one or two scoops of it on the milkshake as a topping.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://kirbiecravings.com/wp-content/uploads/2011/09/IMG_7439-2.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nutella Milkhake</h5>
+                                <p class="card-text">For all the nutella fans there, this recipe is for you. First,
+                                    blend one cup of cold milk
+                                    and two to three tsp of Nutella. Scoop vanilla ice cream and add to it. Blend again.
+                                    Transfer the shake in a glass, topping it off with some whipped cream. Be careful
+                                    not to
+                                    add too much of nutella otherwise you won’t get the flavor of the vanilla. Balance
+                                    is
+                                    important. </p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <a class="btn btn-outline-light btn-block" href="../../order/index.html"
+                                    role="button">Buy Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div>
+        <hr>
+        <div class="text-center p-3">
+            <footer> <span style="display: inline-block; transform: rotate(180deg);">&#169;</span> mahomuri 2021
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

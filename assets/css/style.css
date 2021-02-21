@@ -1,0 +1,165 @@
+body {
+  background-color: #fbf3d9;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Caveat", cursive;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+}
+.navbar {
+  background-color: #b69276;
+  padding-left: 5px;
+  font-size: 20pt;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar .nav-link,
+.navbar .nav-dropdown {
+  margin: 0 0.5rem;
+}
+.navbar .navbar-brand {
+  font-size: 40pt;
+}
+.navbar .dropdown-menu {
+  background-color: white;
+}
+
+.nav > a{
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: black
+}
+
+.jumbotron {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 10px;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.sticky {
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.jumbotron .ds-content {
+    margin-bottom: 0;
+}
+
+#welcome {
+  background-color: #fbf3d9;
+  margin-top: 30px;
+}
+
+#welcome > h1 {
+  font-size: 100px;
+}
+
+#welcome > p {
+  font-size: 20px;
+}
+
+#aboutHeader {
+  background-color: #fbf3d9;
+  margin-top: 30px;
+}
+
+#aboutHeader > h1 {
+  font-size: 100px;
+}
+
+.aboutSection > h2 {
+  font-size: 65px;
+}
+
+#orderHeader > h1 {
+    font-size: 80px;
+}
+
+#orderComplete {
+  text-align: center;
+}
+
+.content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+
+.btn {
+  background-color: antiquewhite;
+  font-family: "Montserrat", sans-serif;
+  border-color: black;
+  color: black;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+
+.btn:active {
+  background-color: #b69276;
+}
+
+.card {
+  height: fit-content;
+}
+
+.card-title {
+  font-family: "Caveat", cursive;
+  font-size: 45px;
+}
+.card-text {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card > img {
+  height: 256px;
+}
+
+.card >img:hover {
+  opacity: 80%;
+}
+
+.carousel-item > img {
+  height: 750px;
+}
+
+form {
+  width: 40%;
+}
+form label {
+  font-size: 16pt;
+}
+form .hidden {
+  display: none;
+  visibility: hidden;
+}
