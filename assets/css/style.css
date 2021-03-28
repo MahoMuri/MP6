@@ -48,11 +48,11 @@ p {
   background-color: white;
 }
 
-.nav > a{
+.nav > a {
   font-family: "Montserrat", sans-serif;
   font-size: 35px;
   font-weight: 600;
-  color: black
+  color: black;
 }
 
 .jumbotron {
@@ -70,7 +70,7 @@ p {
 }
 
 .jumbotron .ds-content {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #welcome {
@@ -100,7 +100,7 @@ p {
 }
 
 #orderHeader > h1 {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 #orderComplete {
@@ -130,7 +130,8 @@ p {
 }
 
 .card {
-  height: fit-content;
+  height: 100%;
+  width: 100%;
 }
 
 .card-title {
@@ -145,12 +146,21 @@ p {
   height: 256px;
 }
 
-.card >img:hover {
+.card > img:hover {
   opacity: 80%;
 }
 
 .carousel-item > img {
   height: 750px;
+}
+
+#coffee-content {
+  width: 100%;
+  margin-top: 30px;
+}
+
+#nav-tab {
+  text-align: center;
 }
 
 form {

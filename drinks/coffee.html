@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Montserrat&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/32afe25cd2.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Bootstrap Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header class="sticky">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/favicon.png" width="100" height="90" alt="">
+                    Home Brew
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about/index.html"><i class="fas fa-info"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-mug-hot"></i> Coffee
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./teas.html">
+                                <i class="fas fa-leaf"></i> Tea
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shakes.html">
+                                <i class="fas fa-blender"></i> Shakes
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../order/index.html"><i class="fas fa-receipt"></i> Order</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <div class="main container">
+        <!-- Drinks Tab Header -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Our Coffees</h1>
+                <p class="lead">Here is our list of coffees, Feel free to choose!
+                </p>
+            </div>
+        </div>
+
+        <!-- Drinks Tab -->
+        <nav>
+            <div class="nav nav-tabs nav-justified" id="nav-tab" role="tablist">
+                <a class="nav-link active " id="nav-coffee-tab" data-toggle="tab" href="#nav-coffee" role="tab"
+                    aria-controls="nav-coffee" aria-selected="true"><i class="fas fa-mug-hot"></i> Espresso</a>
+                <a class="nav-link" id="nav-double-espresso-tab" data-toggle="tab" href="#nav-double-espresso"
+                    role="tab" aria-controls="nav-tea" aria-selected="false"><i class="fas fa-mug-hot"></i> Double
+                    Espresso</a>
+                <a class="nav-link" id="nav-americano-tab" data-toggle="tab" href="#nav-americano" role="tab"
+                    aria-controls="nav-shake" aria-selected="false"><i class="fas fa-mug-hot"></i> Americano</a>
+            </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <!-- Espresso -->
+            <div class="tab-pane fade show active" id="nav-coffee" role="tabpanel" aria-labelledby="nav-coffee-tab">
+                <div class="container" id="coffee-content">
+                    <div class="row">
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="https://static.scientificamerican.com/sciam/cache/file/7C0BADB7-D030-4E4E-BE715FB20458C51E_source.jpg?w=590&h=800&533ACFE5-6F68-4434-B0595E60892B668A"
+                                    class="figure-img img-fluid rounded">
+                                <figcaption class="figure-caption">A nice cup of Espresso prepared by our proffesional
+                                    baristas.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 100%; height: 18em;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Espresso</h5>
+                                    <p class="card-text">The espresso, also known as a short black, is approximately 1
+                                        oz.
+                                        of highly
+                                        concentrated
+                                        coffee. Although simple in appearance, it can be difficult to master.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a class="btn btn-outline-light btn-block" href="../order/index.html"
+                                        role="button">Buy Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-double-espresso" role="tabpanel"
+                aria-labelledby="nav-double-espresso-tab">
+                <div class="container" id="coffee-content">
+                    <div class="row">
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="https://www.thecheesecakefactory.com/assets/images/Menu-Import/960x720-CCF_DoubleEspresso.jpg"
+                                    class="figure-img img-fluid rounded">
+                                <figcaption class="figure-caption">A nice cup of Double Espresso prepared by our
+                                    proffesional
+                                    baristas.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 100%; height: 18em;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Double Espresso</h5>
+                                    <p class="card-text">A double espresso may also be listed as doppio, which is the
+                                        Italian word for
+                                        double.
+                                        This drink is highly concentrated and strong.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a class="btn btn-outline-light btn-block" href="../order/index.html"
+                                        role="button">Buy Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-americano" role="tabpanel" aria-labelledby="nav-americano-tab">
+                <div class="container" id="coffee-content">
+                    <div class="row">
+                        <div class="col-sm">
+                            <figure class="figure">
+                                <img src="https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-recipes-americano-1571757341897.jpg"
+                                    class="figure-img img-fluid rounded">
+                                <figcaption class="figure-caption">A nice cup of Americano prepared by our
+                                    proffesional
+                                    baristas.</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card" style="width: 100%; height: 21em;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Americano</h5>
+                                    <p class="card-text">Americanos are popular breakfast drinks and thought to have
+                                        originated during
+                                        World War
+                                        II. Soldiers would add water to their coffee to extend their rations farther.
+                                        The
+                                        water
+                                        dilutes the espresso while still maintaining a high level of caffeine.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <a class="btn btn-outline-light btn-block" href="../order/index.html"
+                                        role="button">Buy Now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div>
+        <hr>
+        <div class="text-center p-3">
+            <footer> <span style="display: inline-block; transform: rotate(180deg);">&#169;</span> mahomuri 2021
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
